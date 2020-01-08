@@ -7,14 +7,16 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
-    @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
-    }
 
     @Test public void testRoll(){
-        int expected = 3;
-        int actual = 3;
-        assertEquals(expected, actual);
+        int input = 4;
+        int[] expected = Library.roll(input);
+        assertEquals(input, expected.length);
+    }
+
+    @Test public void testContainsDuplicates(){
+        String[] input = {"a", "b", "c", "a"};
+        boolean expected = true;
+        assertEquals(input, expected);
     }
 }
