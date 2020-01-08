@@ -14,9 +14,21 @@ public class LibraryTest {
         assertEquals(input, expected.length);
     }
 
+    @Test public void rollBetween1and6(){
+        //
+    }
+
     @Test public void testContainsDuplicates(){
         String[] input = {"a", "b", "c", "a"};
-        boolean expected = true;
-        assertEquals(input, expected);
+        boolean actual = Library.containsDuplicates(input);
+        boolean result = true;
+        assertEquals(actual, result);
+    }
+
+    @Test public void testNoContainDuplicates(){
+        String[] input = {"a", "b", "c"};
+        boolean actual = Library.containsDuplicates(input);
+        boolean result = false;
+        assertEquals(actual, result);
     }
 }
