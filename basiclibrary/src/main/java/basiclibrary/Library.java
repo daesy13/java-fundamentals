@@ -23,13 +23,13 @@ public class Library {
 
     static boolean containsDuplicates( String[] args){
         boolean result = true;
-        for (int i = 0; i < args.length; i++){
-            String initValue = args[0];
-            if (args[i] == initValue){
-                return result;
-            }
-            else{
-                return result=false;
+        for (int i = 0; i < args.length; i++) {
+            for (int j = args.length - 1; j >= 0; j--){
+                if (args[i] == args[j]) {
+                    return result;
+                } else {
+                    return result = false;
+                }
             }
         }
         return result;
