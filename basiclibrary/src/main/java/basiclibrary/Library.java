@@ -36,6 +36,7 @@ public class Library {
         return result;
     }
 
+
 //    LAB 3
 //Use the October Seattle weather data above. Iterate through all of the data to find the min and max values.
 //    Use a HashSet of type Integer to keep track of all the unique temperatures seen. Finally, iterate from
@@ -60,4 +61,5 @@ public class Library {
        for (int k = 0; k < numbersList.length; k++){
        }
     }
+
 }
