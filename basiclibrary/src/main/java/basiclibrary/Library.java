@@ -9,7 +9,12 @@ public class Library {
 //    public boolean someLibraryMethod() {
 //        return true;
 //    }
+    public static void main(String[] args){
+        // run method to see results
+    }
 
+    //Write a method called roll that accepts an integer n and rolls a six-sided dice n times.
+    // The method should return an array containing the values of the rolls.
     static int[] roll(int n){
         Random randgen = new Random();
         int[] newArr = new int[n];
@@ -21,6 +26,8 @@ public class Library {
         return newArr;
     }
 
+    //Write a method called containsDuplicates that returns true or false
+    // depending on whether the array contains duplicate values.
     static boolean containsDuplicates( String[] args){
         boolean result = true;
         for (int i = 0; i < args.length; i++) {
@@ -34,4 +41,10 @@ public class Library {
         }
         return result;
     }
+
+    //Calculating Averages: Write a method that accepts an array of integers and calculates and
+    // returns the average of all the values in the array.
+
+    // Arrays of Arrays: Given an array of arrays calculate the average value for each array
+    // and return the array with the lowest average.
 }
