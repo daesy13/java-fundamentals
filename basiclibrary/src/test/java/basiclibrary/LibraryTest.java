@@ -6,6 +6,7 @@ package basiclibrary;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+// assertEquals(actual, assert, delta);
 public class LibraryTest {
 
     @Test public void testRoll(){
