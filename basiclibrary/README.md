@@ -1,4 +1,4 @@
-LAB 2
+LAB 2 </br>
 **Rolling Dice**</br>
 Write a method called roll that accepts an integer n and rolls a six-sided dice n times. The method should return an array containing the values of the rolls.</br>
 
