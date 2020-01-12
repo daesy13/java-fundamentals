@@ -10,3 +10,7 @@ Write a method that accepts an array of integers and calculates and returns the 
 
 **Arrays of Arrays**</br>
 Given an array of arrays calculate the average value for each array and return the array with the lowest average.
+
+**Resources:**</br>
+[ ] https://alvinalexander.com/blog/post/java/java-faq-create-array-int-example-syntax
+[ ] http://www.java2s.com/Tutorial/Java/0040__Data-Type/IntegerMAXMINVALUE.htm
