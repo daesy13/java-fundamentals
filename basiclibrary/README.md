@@ -1,4 +1,4 @@
-LAB 2 </br>
+**LAB 2** </br>
 **Rolling Dice**</br>
 Write a method called roll that accepts an integer n and rolls a six-sided dice n times. The method should return an array containing the values of the rolls.</br>
 
@@ -14,3 +14,4 @@ Given an array of arrays calculate the average value for each array and return t
 **Resources:**</br>
 https://alvinalexander.com/blog/post/java/java-faq-create-array-int-example-syntax
 http://www.java2s.com/Tutorial/Java/0040__Data-Type/IntegerMAXMINVALUE.htm
+https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
