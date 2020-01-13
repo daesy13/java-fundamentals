@@ -1,6 +1,6 @@
 **LAB 2** </br>
-[**Methods**](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/main/java/basiclibrary/Library.java)</br>
-[**Testing**](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/test/java/basiclibrary/LibraryTest.java)</br>
+**Methods:** [Methods](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/main/java/basiclibrary/Library.java)</br>
+**Testing:** [Testing](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/test/java/basiclibrary/LibraryTest.java)</br>
 **Rolling Dice**</br>
 Write a method called roll that accepts an integer n and rolls a six-sided dice n times. The method should return an array containing the values of the rolls.</br>
 
@@ -20,8 +20,8 @@ http://www.java2s.com/Tutorial/Java/0040__Data-Type/IntegerMAXMINVALUE.htm
 https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
 
 **LAB 2** </br>
-[**Methods**](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/main/java/basiclibrary/Library.java)</br>
-[**Testing**](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/test/java/basiclibrary/LibraryTest.java)</br>
+**Methods:** [Methods](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/main/java/basiclibrary/Library.java)</br>
+**Testing:** [Testing](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/test/java/basiclibrary/LibraryTest.java)</br>
 **Analyzing Weather Data**</br>
 Use the October Seattle weather data above. Iterate through all of the data to find the min and max values. Use a HashSet of type Integer to keep track of all the unique temperatures seen. Finally, iterate from the min temp to the max temp and create a String containing any temperature not seen during the month. Return that String.</br>
 
