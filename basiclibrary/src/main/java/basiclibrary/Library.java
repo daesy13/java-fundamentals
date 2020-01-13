@@ -7,44 +7,36 @@ import java.util.*;
 
 
 public class Library {
-//    public boolean someLibraryMethod() {
-//        return true;
-//    }
-    public static void main(String[] args){
-        System.out.println("Main method is working!");
-        // int dogCount = 1;
-        //    System.out.println("I own " + dogCount + " " + pluralize("dog", dogCount) + ".");
+
+    public static void main(String[] args) {
+//        System.out.println("Main method is working!");
 //        System.out.println("roll = " + Arrays.toString(roll(4)));
-//        System.out.println("containsDuplicates = " + containsDuplicates(new String[]{"a", "b", "c", "a"}));
-//        System.out.println("calculatingAverage = " + calculatingAverage(new int[]{1, 2, 3, 4, 5}));
         int[][] weeklyMonthTemperatures = {
                 {66, 64, 58, 65, 71, 57, 60},
                 {57, 65, 65, 70, 72, 65, 51},
                 {55, 54, 60, 53, 59, 57, 61},
                 {65, 56, 55, 52, 55, 62, 57}
         };
-//        System.out.println("arrayAverage = " + arrayAverage(weeklyMonthTemperatures));
         System.out.println("mapi() = " + mapi(weeklyMonthTemperatures));
-
-}
+    }
 
     //Write a method called roll that accepts an integer n and rolls a six-sided dice n times.
     // The method should return an array containing the values of the rolls.
-    public static int[] roll(int n){
+    public static int[] roll(int n) {
         Random randgen = new Random();
         int[] newArr = new int[n];
-        for (int i = 0; i < n; i++){
-            newArr[i] = randgen.nextInt(6)+1;
+        for (int i = 0; i < n; i++) {
+            newArr[i] = randgen.nextInt(6) + 1;
         }
         return newArr;
     }
 
     //Write a method called containsDuplicates that returns true or false
     // depending on whether the array contains duplicate values.
-    public static boolean containsDuplicates( String[] args){
+    public static boolean containsDuplicates(String[] args) {
         boolean result = true;
         for (int i = 0; i < args.length; i++) {
-            for (int j = args.length - 1; j >= 0; j--){
+            for (int j = args.length - 1; j >= 0; j--) {
                 if (args[i] == args[j]) {
                     return result;
                 } else {
@@ -55,31 +47,30 @@ public class Library {
         return result;
     }
 
-
     //Calculating Averages: Write a method that accepts an array of integers and calculates and
     // returns the average of all the values in the array.
-    public static int calculatingAverage(int[] num){
+    public static int calculatingAverage(int[] num) {
         int result = 0;
         int len = num.length;
-        for (int i = 0; i < num.length; i++){
+        for (int i = 0; i < num.length; i++) {
             result += num[i];
         }
-        return result/len;
+        return result / len;
     }
 
     // Arrays of Arrays: Given an array of arrays calculate the average value for each array
     // and return the array with the lowest average.
-    public static int arrayAverage(int[][] multiArr){
+    public static int arrayAverage(int[][] multiArr) {
         int max = Integer.MAX_VALUE;
         int sum = 0;
         int average = 0;
-        for (int i = 0; i < multiArr.length; i++){
-            for (int j = 0; j < multiArr[i].length; j++){
+        for (int i = 0; i < multiArr.length; i++) {
+            for (int j = 0; j < multiArr[i].length; j++) {
                 sum += multiArr[i][j];
             }
-            average = sum/multiArr[i].length;
+            average = sum / multiArr[i].length;
             sum = 0;
-            if (average < max){
+            if (average < max) {
                 max = average;
             }
         }
@@ -88,30 +79,39 @@ public class Library {
 
 
 //    LAB 3
-//Use the October Seattle weather data above. Iterate through all of the data to find the min and max values.
+//    Use the October Seattle weather data above. Iterate through all of the data to find the min and max values.
 //    Use a HashSet of type Integer to keep track of all the unique temperatures seen. Finally, iterate from
 //    the min temp to the max temp and create a String containing any temperature not seen during the month.
-    //Return that String.
 
-    public static HashSet<Integer> mapi(int[][] multiArr){
+    public static String mapi(int[][] multiArr) {
+
         HashSet<Integer> weather = new HashSet<>();
-        for (int i = 0; i < multiArr.length; i++){
-            for (int j=0; j < multiArr[i].length; j++){
-                // Creating a HashSet
-                weather.add(multiArr[i][j]);
-                System.out.println("weather = " + weather);
+        String tempInfo = "";
+
+        // iterate the multiarray and input data into a hashset to remove duplicates
+        for (int[] week : multiArr) {
+            for (int day : week) {
+                weather.add(day);
             }
         }
-//        // convert set into list
-//        List<Integer> numbersList = new ArrayList<Integer>(weather);
-//        // sort list
-//       Collections.sort(numbersList);
-//       int start = numbersList.get(0);
-//       int end = numbersList[numbersList.length-1];
-//       for (int k = 0; k < numbersList.length; k++){
-//       }
-        return weather;
+
+        // collecting min and max
+        int max = Collections.max(weather);
+        tempInfo += String.format("High: %d%n", max);
+        int min = Collections.min(weather);
+        tempInfo += String.format("Low: %d%n", min);
+
+        // checking if a num btwn min and max is not there
+        for (int i = min; i <= max; i++){
+            if (!weather.contains(i)){
+                tempInfo += String.format("Never saw temperature: %d%n", i);
+            }
+        }
+        return tempInfo;
     }
+
+    // Write a function called tally that accepts a List of Strings representing votes and returns
+    // one string to show what got the most votes
 
 
 }
