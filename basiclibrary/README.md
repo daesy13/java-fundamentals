@@ -19,7 +19,7 @@ https://alvinalexander.com/blog/post/java/java-faq-create-array-int-example-synt
 http://www.java2s.com/Tutorial/Java/0040__Data-Type/IntegerMAXMINVALUE.htm
 https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
 
-**LAB 2** </br>
+**LAB 3** </br>
 **Methods:** [Methods](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/main/java/basiclibrary/Library.java)</br>
 **Testing:** [Testing](https://github.com/daesy13/java-fundamentals/blob/master/basiclibrary/src/test/java/basiclibrary/LibraryTest.java)</br>
 **Analyzing Weather Data**</br>
