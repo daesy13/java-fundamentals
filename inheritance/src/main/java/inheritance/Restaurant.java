@@ -7,11 +7,10 @@ public class Restaurant {
 
     String name;
     int stars;
-    long price;
+    String price;
 
-    public Restaurant(String name, int stars, long price) {
+    public Restaurant(String name, String price) {
         this.name = name;
-        this.stars = stars;
         this.price = price;
     }
 
