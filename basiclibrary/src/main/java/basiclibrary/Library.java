@@ -10,14 +10,26 @@ public class Library {
 
     public static void main(String[] args) {
 //        System.out.println("Main method is working!");
-//        System.out.println("roll = " + Arrays.toString(roll(4)));
-        int[][] weeklyMonthTemperatures = {
-                {66, 64, 58, 65, 71, 57, 60},
-                {57, 65, 65, 70, 72, 65, 51},
-                {55, 54, 60, 53, 59, 57, 61},
-                {65, 56, 55, 52, 55, 62, 57}
-        };
-        System.out.println("mapi() = " + mapi(weeklyMonthTemperatures));
+//        int[][] weeklyMonthTemperatures = {
+//                {66, 64, 58, 65, 71, 57, 60},
+//                {57, 65, 65, 70, 72, 65, 51},
+//                {55, 54, 60, 53, 59, 57, 61},
+//                {65, 56, 55, 52, 55, 62, 57}
+//        };
+//        System.out.println(mapi(weeklyMonthTemperatures));
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+
+        String winner = tally(votes);
+        System.out.println(winner + " received the most votes!");
     }
 
     //Write a method called roll that accepts an integer n and rolls a six-sided dice n times.
@@ -84,23 +96,19 @@ public class Library {
 //    the min temp to the max temp and create a String containing any temperature not seen during the month.
 
     public static String mapi(int[][] multiArr) {
-
         HashSet<Integer> weather = new HashSet<>();
         String tempInfo = "";
-
         // iterate the multiarray and input data into a hashset to remove duplicates
         for (int[] week : multiArr) {
             for (int day : week) {
                 weather.add(day);
             }
         }
-
         // collecting min and max
         int max = Collections.max(weather);
         tempInfo += String.format("High: %d%n", max);
         int min = Collections.min(weather);
         tempInfo += String.format("Low: %d%n", min);
-
         // checking if a num btwn min and max is not there
         for (int i = min; i <= max; i++){
             if (!weather.contains(i)){
@@ -112,6 +120,9 @@ public class Library {
 
     // Write a function called tally that accepts a List of Strings representing votes and returns
     // one string to show what got the most votes
+    public static String tally(List<String> runners){
 
+        return String.valueOf(runners);
+    }
 
 }
