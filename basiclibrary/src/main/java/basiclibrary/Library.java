@@ -121,6 +121,17 @@ public class Library {
     // Write a function called tally that accepts a List of Strings representing votes and returns
     // one string to show what got the most votes
     public static String tally(List<String> runners){
+//        set up first item in array to be winner
+        String winnerHolder = runners.get(0);
+//        set up new hashmap
+        HashMap<Integer, String> myMap = new HashMap<Integer, String>();
+//        for each
+        for(String candidate : myMap.keySet()){
+
+        }
+//        add count and compare to the fake winner
+//        else
+//        return winner
 
         return String.valueOf(runners);
     }
