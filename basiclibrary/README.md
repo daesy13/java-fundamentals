@@ -44,3 +44,5 @@ https://www.geeksforgeeks.org/hashset-contains-method-in-java/https://stackoverf
 https://www.java67.com/2016/07/how-to-find-length-size-of-arraylist-in-java.html
 https://stackoverflow.com/questions/14831045/find-the-biggest-number-in-hashset-hashmap-java
 https://stackoverflow.com/questions/26491801/how-can-i-have-tostring-return-a-multi-line-string
+https://www.geeksforgeeks.org/hashmap-put-method-in-java/
+https://www.geeksforgeeks.org/hashmap-get-method-in-java/
