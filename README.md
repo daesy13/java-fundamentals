@@ -6,5 +6,5 @@ First several labs of Java 401</br></br>
 
 **LAB 3** </br>
 
-[Lab 3: Maps, File I/O, and Testing](https://github.com/daesy13/java-fundamentals/tree/master/basiclibrary)
-[Lab 3: Linter](#lab3linter)
+[Lab 3: Maps, File I/O, and Testing](https://github.com/daesy13/java-fundamentals/tree/master/basiclibrary)</br>
+[Lab 3: Linter](https://github.com/daesy13/java-fundamentals/tree/master/linter)
