@@ -1,5 +1,5 @@
 # java-fundamentals
-First several labs of Java 401</br>
+First several labs of Java 401</br></br>
 **LAB 2** </br>
 
 [Lab: 02 - Arrays, for loops, testing](https://github.com/daesy13/java-fundamentals/tree/master/basiclibrary)
@@ -7,3 +7,4 @@ First several labs of Java 401</br>
 **LAB 3** </br>
 
 [Lab 3: Maps, File I/O, and Testing](https://github.com/daesy13/java-fundamentals/tree/master/basiclibrary)
+[Lab 3: Linter](#lab3linter)
