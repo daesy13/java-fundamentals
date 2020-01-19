@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f883cf-da4b-4f6a-80f8-37ba412f1206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../linter/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/resources/gates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/src/main/java/linter/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/src/test/java/linter/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basiclibrary/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basiclibrary/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/src/main/java/basiclibrary/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basiclibrary/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
