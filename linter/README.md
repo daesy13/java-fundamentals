@@ -1,4 +1,4 @@
-# Lab 3 LInter<a name="lab3linter"></a>
+# Lab 3 Linter<a name="lab3linter"></a>
 
 [LINK TO CODE](https://github.com/daesy13/java-fundamentals/blob/master/linter/src/main/java/linter/App.java)</br>
 [LINK TO TEST](https://github.com/daesy13/java-fundamentals/blob/master/linter/src/test/java/linter/AppTest.java)
