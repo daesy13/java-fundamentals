@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f883cf-da4b-4f6a-80f8-37ba412f1206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bitmap-transformer" beforeDir="false" afterPath="$PROJECT_DIR$/../bitmap-transformer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__com_google_guava_guava_28_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/modules/linter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/modules/linter.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/modules/linter.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quotes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inheritance/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Review.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

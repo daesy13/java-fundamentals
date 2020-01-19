@@ -1,9 +1,10 @@
 package inheritance;
 //  Each Review should have a body, an author, and a number of stars.
 public class Review {
-    String bodyText;
-    String author;
-    int stars;
+    public String bodyText;
+    public String author;
+    public int stars;
+    public Restaurant restaurant;
 
     public Review(String bodyText, String author, int stars) {
         this.bodyText = bodyText;
