@@ -4,6 +4,10 @@
 package basiclibrary;
 
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 // assertEquals(actual, assert, delta);
@@ -55,4 +59,38 @@ public class LibraryTest {
         int expected = 57;
         assertEquals(actual, expected);
     }
+
+    @Test public void testMapi(){
+        int [][] input = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+        String actual = Library.mapi(input);
+        String expected = "High: 72\n" +
+                "Low: 51\n" +
+                "Never saw temperature: 63\n" +
+                "Never saw temperature: 67\n" +
+                "Never saw temperature: 68\n" +
+                "Never saw temperature: 69\n";
+        assertEquals(actual, expected);
+    }
+
+    @Test public void testTally(){
+        List<String> input = new ArrayList<>();
+        input.add("Bush");
+        input.add("Bush");
+        input.add("Bush");
+        input.add("Shrub");
+        input.add("Hedge");
+        input.add("Shrub");
+        input.add("Bush");
+        input.add("Hedge");
+        input.add("Bush");
+        String actual = Library.tally(input);
+        String expected = "Bush received the most votes!";
+        assertEquals(actual, expected);
+    }
+
 }
