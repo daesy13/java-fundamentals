@@ -10,7 +10,6 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-// assertEquals(actual, assert, delta);
 public class LibraryTest {
 
     @Test public void testRoll(){
@@ -92,5 +91,4 @@ public class LibraryTest {
         String expected = "Bush received the most votes!";
         assertEquals(actual, expected);
     }
-
 }
