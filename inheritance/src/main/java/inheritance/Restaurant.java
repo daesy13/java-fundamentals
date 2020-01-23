@@ -1,5 +1,6 @@
 package inheritance;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Restaurant {
@@ -10,11 +11,12 @@ public class Restaurant {
     public String name;
     public int starRating;
     public String price;
-    public List<Review> reviewList;
+    public List<Review> reviewList = new ArrayList<>();
 
-    public Restaurant(String name, String price) {
+    public Restaurant() {
         this.name = name;
         this.price = price;
+        this.starRating = 0;
     }
 
     public void addReview(Review review){
@@ -30,6 +32,4 @@ public class Restaurant {
         }
         starRating = sum/reviewList.size();
     }
-
-
 }
