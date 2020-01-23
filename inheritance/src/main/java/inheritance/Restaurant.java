@@ -13,7 +13,7 @@ public class Restaurant {
     public String price;
     public List<Review> reviewList = new ArrayList<>();
 
-    public Restaurant() {
+    public Restaurant(String name, String price) {
         this.name = name;
         this.price = price;
         this.starRating = 0;
