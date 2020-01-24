@@ -19,6 +19,10 @@ public class Restaurant {
         this.starRating = 0;
     }
 
+    public String toString(){
+        return "Name: " + name + ", Price: " + price + ", Start:" + starRating;
+    }
+
     public void addReview(Review review){
         reviewList.add(review);
         review.restaurant = this;
