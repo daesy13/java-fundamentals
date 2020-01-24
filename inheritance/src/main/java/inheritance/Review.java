@@ -11,4 +11,9 @@ public class Review {
         this.author = author;
         this.stars = stars;
     }
+
+    public String toStringReview(){
+        return bodyText;
+    }
+
 }
