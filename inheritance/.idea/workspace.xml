@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f883cf-da4b-4f6a-80f8-37ba412f1206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Business.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Theater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/inheritance/BusinessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/inheritance/ShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/inheritance/TheaterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Theater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,27 +58,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.RestaurantTest.restaurantTest">
-    <configuration name="RestaurantTest.addReviewTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.RestaurantTest.addReviewTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.ShopTest">
     <configuration name="RestaurantTest.restaurantTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,12 +79,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RestaurantTest.updateStarsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShopTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.RestaurantTest.updateStarsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.ShopTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -120,12 +99,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ReviewTest.addReviewTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShopTest.shopTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.ReviewTest.addReviewTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.ShopTest.shopTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -140,12 +119,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ReviewTest.updateStarsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TheaterTest.theaterDataTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.ReviewTest.updateStarsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.TheaterTest.theaterDataTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TheaterTest.theaterName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.TheaterTest.theaterName&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -162,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShopTest" />
+        <item itemvalue="Gradle.ShopTest.shopTest" />
+        <item itemvalue="Gradle.TheaterTest.theaterDataTest" />
+        <item itemvalue="Gradle.TheaterTest.theaterName" />
         <item itemvalue="Gradle.RestaurantTest.restaurantTest" />
-        <item itemvalue="Gradle.ReviewTest.updateStarsTest" />
-        <item itemvalue="Gradle.ReviewTest.addReviewTest" />
-        <item itemvalue="Gradle.RestaurantTest.updateStarsTest" />
-        <item itemvalue="Gradle.RestaurantTest.addReviewTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,22 +211,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="349" y="26" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1579032290138" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1579850660045">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom" timestamp="1579988166944">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579850660045" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1579850660043">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.23.1440.808/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579988166944" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center" timestamp="1579988166943">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579850660043" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1579850660042">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center/0.23.1440.808/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579988166943" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left" timestamp="1579988166943">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579850660042" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1579850660044">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left/0.23.1440.808/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579988166943" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right" timestamp="1579988166944">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579850660044" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right/0.23.1440.808/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579988166944" />
     <state x="-1451" y="179" key="SettingsEditor" timestamp="1579924345023">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
