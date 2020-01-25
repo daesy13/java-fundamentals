@@ -46,4 +46,7 @@ public class ReviewTest {
         int actualRestaurant2 = goodBurger.starRating;
         assertEquals(expectedRestaurant2, actualRestaurant2);
     }
+
+    @Test public void 
+
 }
