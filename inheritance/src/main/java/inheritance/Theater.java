@@ -18,7 +18,8 @@ public class Theater extends Business{
     }
 
     public String toString(){
-        return "Name: " + name + ", Price: " + price + ", Start:" + starRating;
+
+        return "Name: " + name + ", Price: " + price + ", Start:" + starRating + " Movie: " + moviesPlaying;
     }
 
     // add movie method that will add movies and remove movies.
@@ -27,6 +28,9 @@ public class Theater extends Business{
     }
 
     public void removeMovie(String movieTitle){
+        if (this.moviesPlaying.contains((movieTitle))){
+            this.moviesPlaying.remove(movieTitle);
+        }
         moviesPlaying.remove(movieTitle);
     }
 

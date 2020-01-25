@@ -47,6 +47,4 @@ public class ReviewTest {
         assertEquals(expectedRestaurant2, actualRestaurant2);
     }
 
-    @Test public void 
-
 }
