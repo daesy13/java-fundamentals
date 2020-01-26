@@ -35,7 +35,7 @@
 5. When you associate a review with a restaurant, that restaurant’s star rating should change. Ensure that your addReview method updates the Restaurant star rating appropriately, and add tests. (In particular, ensure that if you’re trying to call addReview when the restaurant and the review are already associated, the star rating of the restaurant does not update.)</br></br>
 
 
-<a name="lab-6">lab 6</a></br>
+<a name="lab-7">lab 7</a></br>
 # LAB 7 Composition and Inheritance, Part 2
 [LINK TO CODE](https://github.com/daesy13/java-fundamentals/tree/master/inheritance/src/main/java/inheritance)</br>
 [LINK TO TEST](https://github.com/daesy13/java-fundamentals/tree/master/inheritance/src/test/java/inheritance)
