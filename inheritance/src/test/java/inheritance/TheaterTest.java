@@ -1,9 +1,12 @@
 package inheritance;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import java.util.List;
+
+import static org.junit.Assert.*;
 
 public class TheaterTest {
 
@@ -18,6 +21,9 @@ public class TheaterTest {
 
         Review movieReview1 = new Review("It was very chilly", "Susan Smith", 3, "Frozen");
         Review movieReview2 = new Review("It was very wild", "Jhon Doe", 5, "Tarzan");
+
+        amc.addReview(movieReview1);
+        amc.addReview(movieReview2);
     }
 
     @Test public void theaterNameTest() {
@@ -26,13 +32,29 @@ public class TheaterTest {
         assertEquals(expected, actual);
     }
 
-    @Test public void theaterDataTest(){
-        String expectedM1 = "Name: AMC, Price: $$, Start:3";
-        String actualM1 = amc.toString();
-        assertEquals(expectedM1,actualM1);
+    @Test public void theaterReviewTest(){
+        String expected = "It was very chilly";
+        String actual = amc.reviewList.get(0).toStringReview();
+        assertEquals(expected,actual);
     }
 
 
-    @Test public void reviewAddMovieTest(){}
+    @Test public void reviewMovieTitleTest(){
+        String actual = amc.reviewList.get(1).movieTitle;
+        String expected = "Tarzan";
+        assertEquals(expected, actual);
+    }
+
+    @Test public void reviewAddNewMovieTest(){
+        amc.addMovie("Titanic");
+        boolean actual = amc.moviesPlaying.contains("Titanic");
+        assertTrue(actual);
+    }
+
+    @Test public void reviewRemoveNewMovieTest(){
+        amc.removeMovie("Titanic");
+        boolean actual = amc.moviesPlaying.contains("Titanic");
+        assertFalse(actual);
+    }
 
 }
