@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d9f883cf-da4b-4f6a-80f8-37ba412f1206" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inheritance/TheaterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inheritance/TheaterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inheritance/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inheritance/ShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +54,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.TheaterTest">
-    <configuration name="TheaterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ShopTest.averageReviewTest">
+    <configuration name="ShopTest.averageReviewTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.TheaterTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.ShopTest.averageReviewTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -75,12 +75,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TheaterTest.reviewAddMovieTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShopTest.shopTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.TheaterTest.reviewAddMovieTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.ShopTest.shopTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TheaterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.TheaterTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -135,33 +155,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TheaterTest.theaterReviewTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.TheaterTest.theaterReviewTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShopTest.averageReviewTest" />
+        <item itemvalue="Gradle.ShopTest.shopTest" />
         <item itemvalue="Gradle.TheaterTest" />
         <item itemvalue="Gradle.TheaterTest.reviewRemoveNewMovieTest" />
         <item itemvalue="Gradle.TheaterTest.reviewAddNewMovieTest" />
-        <item itemvalue="Gradle.TheaterTest.reviewAddMovieTest" />
-        <item itemvalue="Gradle.TheaterTest.theaterReviewTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,31 +208,39 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="349" y="26" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1579032290138" />
-    <state width="1878" height="200" key="GridCell.Tab.0.bottom" timestamp="1580015198866">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1878" height="210" key="GridCell.Tab.0.bottom" timestamp="1580094076323">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1580094076323" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579850660045" />
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.23.1440.806/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1580015458230" />
     <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.23.1440.808/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1580015198866" />
     <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1579996133570" />
     <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1579997117188" />
-    <state width="1878" height="200" key="GridCell.Tab.0.center" timestamp="1580015198865">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1878" height="210" key="GridCell.Tab.0.center" timestamp="1580094076322">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="210" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1580094076322" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579850660043" />
+    <state width="1878" height="200" key="GridCell.Tab.0.center/0.23.1440.806/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1580015458229" />
     <state width="1878" height="200" key="GridCell.Tab.0.center/0.23.1440.808/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1580015198865" />
     <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1579996133569" />
     <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1579997117187" />
-    <state width="1878" height="200" key="GridCell.Tab.0.left" timestamp="1580015198864">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1878" height="210" key="GridCell.Tab.0.left" timestamp="1580094076321">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="210" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1580094076321" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579850660042" />
+    <state width="1878" height="200" key="GridCell.Tab.0.left/0.23.1440.806/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1580015458229" />
     <state width="1878" height="200" key="GridCell.Tab.0.left/0.23.1440.808/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1580015198864" />
     <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1579996133569" />
     <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1579997117186" />
-    <state width="1878" height="200" key="GridCell.Tab.0.right" timestamp="1580015198865">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1878" height="210" key="GridCell.Tab.0.right" timestamp="1580094076323">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="210" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1580094076323" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579850660044" />
+    <state width="1878" height="200" key="GridCell.Tab.0.right/0.23.1440.806/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1580015458230" />
     <state width="1878" height="200" key="GridCell.Tab.0.right/0.23.1440.808/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1580015198865" />
     <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1579996133570" />
     <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1579997117187" />
